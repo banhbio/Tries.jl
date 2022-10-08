@@ -199,7 +199,7 @@ function Base.show(io::IO, x::AbstractTrie)
             print(io,", ")
         end
     end
-    print_tree(io,x,20)
+    print_tree(io,x,maxdepth=20)
 end
 
 
